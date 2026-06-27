@@ -1,0 +1,6 @@
+if SHIELD_FISHY36
+
+config ZMK_KEYBOARD_NAME
+    default "Fishy36"
+
+endif # SHIELD_FISHY36
