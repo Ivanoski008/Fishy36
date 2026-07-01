@@ -1,6 +1,6 @@
 // This file was generated from a template. Edit it to match your keyboard.
 // See https://zmk.dev/docs/development/hardware-integration/new-shield for more instructions.
-
+#include <behaviors/studio_unlock.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
@@ -13,7 +13,7 @@
         default_layer {
             bindings = <
                 &kp A &kp B &kp A &kp B &kp A &kp B &kp A &kp B &kp A &kp B &kp A &kp B
-                &kp C &kp D
+                &kp C &kp D &studio_unlock
             >;
         };
     };
